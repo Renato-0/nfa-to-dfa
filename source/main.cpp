@@ -11,7 +11,7 @@ int main () {
 	cin >> ei;
 	cout << "Digite estado(s) final(s)" << endl;
 	cin >> ef;
-	cout << "Digite o alfabeto" << endl;
+	cout << "Digite o alfabeto (* reepresenta vazio)" << endl;
 	cin >> alf;
 	automato.addEstados(qe);
 	automato.setEstadoInicial(ei);
